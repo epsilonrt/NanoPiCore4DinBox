@@ -5,7 +5,7 @@ _NanoPi Neo Core in a DIN box_
   <img src="extras/images/Open-source-hardware-logo.png" alt="Open-source-hardware-logo.png" align="right" valign="top">
 </a>
 
-NanoPiCore4DinBox is a board that allows the integration of a [Nano Pi Neo Core](http://nanopi.io/nanopi-neo-core.html)/[Core2](http://nanopi.io/nanopi-neo-core2.html) in a DIN box.  
+NanoPiCore4DinBox is a board that allows the integration of a [Nano Pi Neo Core](http://nanopi.io/nanopi-neo-core.html) in a DIN box.  
 The dimensions of the board are provided for a CAMDENBOSS [CNMB](https://www.camdenboss.com/cnmb/) series box.  
 This provides ETH and USB interfaces and 6 LEDs on the front of the box (or 4 LEDs and 1 push-button).
 
