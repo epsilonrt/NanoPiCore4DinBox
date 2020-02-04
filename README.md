@@ -80,13 +80,13 @@ Then we will turn on all the leds:
 
     pascal@p01:~$ sudo i2cset -y 2 0x20 0
 
-you can also turn on the leds connected to P1, P3 and P5:
+you can also turn on the leds connected to P1, P4 and P3:
 
-    pascal@p01:~$ sudo i2cset -y 2 0x20 0x2A
+    pascal@p01:~$ sudo i2cset -y 2 0x20 0x25
 
-or turn on the leds connected to P0, P2 and P4:
+or turn on the leds connected to P0, P2 and P5:
 
-    pascal@p01:~$ sudo i2cset -y 2 0x20 0x15
+    pascal@p01:~$ sudo i2cset -y 2 0x20 0x1A
 
 Finally we can turn off all the LEDs:
 
