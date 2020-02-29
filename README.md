@@ -198,7 +198,8 @@ You can also use `hdparm` to test the reading speed:
 
 ## Ethernet port
 
-To perform a network benchmark, we use `iperf` (which must be installed), then we launch `iperf` in server mode on the NanoPi Neo Core:
+To perform a network benchmark, we use `iperf` (which must be installed), 
+then we launch `iperf` in server mode on the NanoPi Neo Core:
 
     pascal@p01:~$ iperf -s
       ------------------------------------------------------------
@@ -219,3 +220,14 @@ then we start the measurement from a client PC:
 
 The measured speed is 94 Mbits/sec (very close to the theoretical 100 Mbits/sec).
 
+With a NanoPi Neo Core2 and a NanoPiCore4DinBox in version 1.1 connected to a 
+Gigabit network, we also find performance very close to 1000 MBits/sec:
+
+    pascal@xwing:~$ iperf -c p02
+      ------------------------------------------------------------
+      Client connecting to p02, TCP port 5001
+      TCP window size: 85.0 KByte (default)
+      ------------------------------------------------------------
+      [  3] local 10.201.196.144 port 53254 connected with 10.201.196.3 port 5001
+      [ ID] Interval       Transfer     Bandwidth
+      [  3]  0.0-10.0 sec  1.08 GBytes   930 Mbits/sec
